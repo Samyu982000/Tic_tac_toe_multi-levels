@@ -1,0 +1,108 @@
+.main-container {
+    margin: 0 auto;
+    height: 100%;
+    width: 900px;
+}
+
+.board {
+    height: 420px;
+    width: 420px;
+    margin: 0 auto;
+}
+
+.cell {
+    width: 140px;
+    height: 140px;
+    border: 2px dashed darkorchid;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    cursor: grab;
+    float: left;
+    line-height: 140px;
+    text-align: center;
+    font-family: "Arial Narrow";
+    font-weight: bold;
+    font-size: 70px;
+}
+.board {
+    height: 420px;
+    width: 420px;
+    margin: 0 auto;
+}
+
+/*
+ * giving a hash ahape to the board
+ */
+    .board row:first-child div {
+        border-top: 0;
+    }
+
+    .board row:last-child div {
+        border-bottom: 0;
+    }
+
+    .board row div:first-child {
+        border-left: 0;
+    }
+
+    .board row div:last-child {
+        border-right: 0;
+    }
+
+.control {
+    font-family: Cambria;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top:40px;
+}
+
+.level {
+    margin: 0 60px;
+    color: darkslateblue;
+    cursor: grab;
+}
+
+.not-selected {
+    opacity: 0.5;
+}
+
+.not-selected:hover {
+    opacity:1;
+}
+
+.start {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #87CEFA;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: grab;
+    opacity: 1;
+}
+
+.start:hover {
+    opacity:1;
+}
+
+.ingame {
+    display:none;
+    color:lightskyblue;
+}
+
+.ingame > p {
+    margin:0px;
+}
+
+
+
+
+
